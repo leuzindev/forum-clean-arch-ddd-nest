@@ -1,7 +1,7 @@
 import { EditAnswerUseCase } from './edit-answer'
 import { InMemoryAnswersRepository } from 'test/repositories/in-memory-answers-repository'
 import { UniqueEntityID } from '@/core/entities/unique-entity-id'
-import { makeAnswer } from 'test/factories/make-question copy'
+import { makeAnswer } from 'test/factories/make-answer'
 
 let inMemoryAnswersRepository: InMemoryAnswersRepository
 let sut: EditAnswerUseCase

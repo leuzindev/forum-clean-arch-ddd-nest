@@ -2,7 +2,7 @@ import { InMemoryAnswersRepository } from 'test/repositories/in-memory-answers-r
 import { DeleteAnswerUseCase } from './delete-answer'
 import { UniqueEntityID } from '@/core/entities/unique-entity-id'
 import { beforeEach } from 'vitest'
-import { makeAnswer } from 'test/factories/make-question copy'
+import { makeAnswer } from 'test/factories/make-answer'
 
 let inMemoryAnswersRepository: InMemoryAnswersRepository
 let sut: DeleteAnswerUseCase
